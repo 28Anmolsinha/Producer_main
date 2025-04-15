@@ -13,17 +13,17 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMQConfig {
     private static final Logger logger = LogManager.getLogger(RabbitMQConfig.class);
 
-    public static final String EXCHANGE_NAME = "complaint_exchange";
+    public static final String EXCHANGE_NAME = "complaint_exchange1";
 
 
-    public static final String INFRASTRUCTURE_QUEUE = "infrastructure_queue1";
-    public static final String ELECTRICITY_QUEUE = "electricity_queue1";
-    public static final String LEGAL_QUEUE = "legal_queue1";
+    public static final String INFRASTRUCTURE_QUEUE = "infrastructure_queue2";
+    public static final String ELECTRICITY_QUEUE = "electricity_queue2";
+    public static final String LEGAL_QUEUE = "legal_queue2";
 
 
-    public static final String INFRASTRUCTURE_ROUTING_KEY = "complaint.infrastructure";
-    public static final String ELECTRICITY_ROUTING_KEY = "complaint.electricity";
-    public static final String LEGAL_ROUTING_KEY = "complaint.legal";
+    public static final String INFRASTRUCTURE_ROUTING_KEY = "complaint.infrastructure2";
+    public static final String ELECTRICITY_ROUTING_KEY = "complaint.electricity2";
+    public static final String LEGAL_ROUTING_KEY = "complaint.legal2";
 
     @Bean
     public DirectExchange exchange() {
