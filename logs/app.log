@@ -905,3 +905,5 @@ Caused by: java.lang.IllegalArgumentException: Invalid endpoint, must start with
 2025-04-17 13:09:40 [BatchSpanProcessor_WorkerThread-1] INFO  com.backend.demo.config.LoggingOtlpSpanExporter - Trying to Exporting span 'RabbitMQ' (TraceId: 5406316e071ca19ff82132feb1da63b0) to collector at http://10.200.208.98:4317
 2025-04-17 13:09:40 [BatchSpanProcessor_WorkerThread-1] INFO  com.backend.demo.config.LoggingOtlpSpanExporter - Trying to Exporting span 'Backend1 - Create Complaint' (TraceId: 5406316e071ca19ff82132feb1da63b0) to collector at http://10.200.208.98:4317
 2025-04-17 13:09:41 [OkHttp http://10.200.208.98:4317/...] INFO  com.backend.demo.config.LoggingOtlpSpanExporter - Span export successful to collector at http://10.200.208.98:4317
+2025-04-17 13:36:19 [AMQP Connection 10.200.208.98:30280] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occurred (Exception message: Connection reset)
+2025-04-17 14:38:31 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m35s791ms697µs400ns).

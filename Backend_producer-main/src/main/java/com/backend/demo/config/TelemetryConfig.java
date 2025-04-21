@@ -26,7 +26,6 @@ public class TelemetryConfig {
                 .setEndpoint(COLLECTOR_ENDPOINT)
                 .build();
 
-        // Wrap it in a logging exporter
         LoggingOtlpSpanExporter loggingExporter = new LoggingOtlpSpanExporter(otlpExporter, COLLECTOR_ENDPOINT);
 
         Resource serviceNameResource = Resource.create(

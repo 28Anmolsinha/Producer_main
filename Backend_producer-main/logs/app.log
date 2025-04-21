@@ -1,50 +1,33 @@
-2025-04-05 13:42:41 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.backend.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-04-05 13:42:41 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.backend.demo.DemoApplication for test class com.backend.demo.DemoApplicationTests
-2025-04-05 13:42:42 [main] INFO  com.backend.demo.DemoApplicationTests - Starting DemoApplicationTests using Java 23.0.2 with PID 4476 (started by Anmol Sinha in C:\Users\Anmol Sinha\Downloads\Backend_producer-main\Backend_producer-main)
-2025-04-05 13:42:42 [main] INFO  com.backend.demo.DemoApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-04-05 13:42:43 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2025-04-05 13:42:43 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-05 13:42:43 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
-2025-04-05 13:42:43 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2025-04-05 13:42:43 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-04-05 13:42:43 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
-2025-04-05 13:42:44 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-05 13:42:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-04-05 13:42:44 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-04-05 13:42:45 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-05 13:42:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-04-05 13:42:47 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5897aae1
-2025-04-05 13:42:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-04-05 13:56:53 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.backend.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-04-05 13:56:53 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.backend.demo.DemoApplication for test class com.backend.demo.DemoApplicationTests
-2025-04-05 13:56:54 [main] INFO  com.backend.demo.DemoApplicationTests - Starting DemoApplicationTests using Java 23.0.2 with PID 5332 (started by Anmol Sinha in C:\Users\Anmol Sinha\Downloads\Backend_producer-main\Backend_producer-main)
-2025-04-05 13:56:54 [main] INFO  com.backend.demo.DemoApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-04-05 13:56:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2025-04-05 13:56:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-05 13:56:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
-2025-04-05 13:56:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2025-04-05 13:56:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-04-05 13:56:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
-2025-04-05 13:56:56 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-05 13:56:56 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-04-05 13:56:56 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-04-05 13:56:57 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-05 13:56:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-04-05 13:56:58 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e46a125
-2025-04-05 13:56:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-04-05 13:56:58 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-05 13:56:59 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-05 13:57:02 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-05 13:57:02 [main] INFO  com.backend.demo.config.RabbitMQConfig - Configuring Jackson2JsonMessageConverter for RabbitMQ
-2025-04-05 13:57:02 [main] INFO  com.backend.demo.config.RabbitMQConfig - Creating Direct Exchange: complaint_exchange
-2025-04-05 13:57:02 [main] INFO  com.backend.demo.config.RabbitMQConfig - Creating Queue: infrastructure_queue1
-2025-04-05 13:57:02 [main] INFO  com.backend.demo.config.RabbitMQConfig - Creating Queue: electricity_queue1
-2025-04-05 13:57:02 [main] INFO  com.backend.demo.config.RabbitMQConfig - Creating Queue: legal_queue1
-2025-04-05 13:57:02 [main] INFO  com.backend.demo.config.RabbitMQConfig - Binding Queue infrastructure_queue1 to Exchange complaint_exchange with Routing Key complaint.infrastructure
-2025-04-05 13:57:02 [main] INFO  com.backend.demo.config.RabbitMQConfig - Binding Queue electricity_queue1 to Exchange complaint_exchange with Routing Key complaint.electricity
-2025-04-05 13:57:02 [main] INFO  com.backend.demo.config.RabbitMQConfig - Binding Queue legal_queue1 to Exchange complaint_exchange with Routing Key complaint.legal
-2025-04-05 13:57:02 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-05 13:57:04 [main] INFO  com.backend.demo.DemoApplicationTests - Started DemoApplicationTests in 10.031 seconds (process running for 12.06)
-2025-04-05 13:57:04 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-05 13:57:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-04-05 13:57:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-17 15:00:36 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.backend.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-17 15:00:37 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.backend.demo.DemoApplication for test class com.backend.demo.DemoApplicationTests
+2025-04-17 15:00:37 [main] INFO  com.backend.demo.DemoApplicationTests - Starting DemoApplicationTests using Java 23.0.2 with PID 20240 (started by Anmol Sinha in C:\Users\Anmol Sinha\Downloads\Backend_producer-main\Backend_producer-main)
+2025-04-17 15:00:37 [main] INFO  com.backend.demo.DemoApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-17 15:00:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-17 15:00:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 15:00:39 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 0 JPA repository interfaces.
+2025-04-17 15:00:39 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-17 15:00:39 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-17 15:00:39 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-17 15:00:39 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 15:00:40 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-04-17 15:00:40 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-17 15:00:40 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 15:00:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-17 15:00:41 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@146add7b
+2025-04-17 15:00:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-17 15:00:41 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-17 15:00:42 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 15:00:42 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 15:00:42 [main] INFO  com.backend.demo.config.RabbitMQConfig - Configuring Jackson2JsonMessageConverter for RabbitMQ
+2025-04-17 15:00:42 [main] INFO  com.backend.demo.config.RabbitMQConfig - Creating Direct Exchange: complaint_exchange1
+2025-04-17 15:00:42 [main] INFO  com.backend.demo.config.RabbitMQConfig - Creating Queue: infrastructure_queue2
+2025-04-17 15:00:42 [main] INFO  com.backend.demo.config.RabbitMQConfig - Creating Queue: electricity_queue2
+2025-04-17 15:00:42 [main] INFO  com.backend.demo.config.RabbitMQConfig - Creating Queue: legal_queue2
+2025-04-17 15:00:42 [main] INFO  com.backend.demo.config.RabbitMQConfig - Binding Queue infrastructure_queue2 to Exchange complaint_exchange1 with Routing Key complaint.infrastructure2
+2025-04-17 15:00:42 [main] INFO  com.backend.demo.config.RabbitMQConfig - Binding Queue electricity_queue2 to Exchange complaint_exchange1 with Routing Key complaint.electricity2
+2025-04-17 15:00:42 [main] INFO  com.backend.demo.config.RabbitMQConfig - Binding Queue legal_queue2 to Exchange complaint_exchange1 with Routing Key complaint.legal2
+2025-04-17 15:00:42 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-17 15:00:43 [main] INFO  com.backend.demo.DemoApplicationTests - Started DemoApplicationTests in 6.137 seconds (process running for 8.463)
+2025-04-17 15:00:44 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 15:00:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-17 15:00:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
